@@ -43,7 +43,7 @@ node_t * node_from_back( node_t * head, unsigned int idx )
 	{
 		head=head->next;
 	}
-	return head;
+	return head->value;
 }
 bool has_cycle( node_t * head )
 {
